@@ -1,0 +1,56 @@
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body { color: #262626; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857; margin: 0; }
+
+.widget { background-color: #fff; border-radius: 4px; border: 1px solid #F2F2F2; max-width: 400px; min-width: 248px; overflow: hidden; }
+
+.widget-box-mobile { margin-top: 0; margin-bottom: 45px; }
+
+.widget-image { background-size: cover; background-position: center; height: 225px; margin: 0; }
+
+.widget-details { padding: 8px 13px; }
+
+.widget-title { margin-bottom: 3px; margin-top: 0; }
+.widget-title a { color: #262626; font-weight: 500; text-decoration: none; }
+
+.widget-header { padding: 13px 13px 3px; }
+
+.widget-header-image { width: 40px; height: 40px; background-size: cover; background-position: center; float: left; margin-right: 10px; border-radius: 2px; }
+
+.widget-header-name { color: #262626; font-weight: 600; text-decoration: none; padding-top: 3px; }
+
+.widget-header-location { color: #C0C0C0; margin-top: 0; margin-bottom: 0; }
+
+.widget-teaser { color: #808080; font-size: 13px; line-height: 18px; margin: 0; text-overflow: ellipsis; }
+
+.widget-progress { background-color: #D9D9D9; border-radius: 4px; height: 9px; overflow: hidden; margin: 4px 14px 13px; }
+
+.progress-bar { background-color: #0092DD; color: #fff; float: left; font-size: 12px; height: 100%; line-height: 20px; text-align: center; transition: width .6s ease; width: 0; }
+
+.sr-only { border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+.widget-stats { padding: 0 14px 10px; max-width: 250px; }
+.widget-stats:after { content: ""; display: table; clear: both; }
+
+.widget-stat.first { float: left; }
+.widget-stat.last { float: right; }
+.widget-stat.middle { margin-left: 40%; }
+
+.stat-value { display: block; font-size: 13px; font-weight: 600; }
+
+.stat-detail { color: #808080; display: block; font-size: 11px; text-transform: uppercase; }
+
+.widget-footer { border-top: 1px solid #F2F2F2; padding: 14px; }
+
+.btn { color: #fff; border-radius: 2px; font-size: 13px; font-weight: 600; display: inline-block; padding: 6px 12px; text-decoration: none; margin-right: 12px; }
+@media (max-width: 299px) { .btn:nth-child(2n) { display: none; } }
+
+.btn-primary { background-color: #D70D2E; }
+
+.btn-secondary { background-color: #0092DD; }
+
+.brand-logo { margin-top: 7px; float: right; }
+
+.offplatform-message { color: #808080; font-size: 12px; }
+
+/*# sourceMappingURL=widgets.css.map */

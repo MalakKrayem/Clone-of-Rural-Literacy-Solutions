@@ -1,0 +1,213 @@
+::selection{
+  background-color: #001a4d;
+  color:white;
+}
+#link a:hover {
+    color:#ff0000;
+}
+button{
+    width: 200px;
+    height: 70px;
+    border-radius: 1rem;
+    background-color: #00bfff;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Shippori Mincho', serif;
+}
+button:hover{
+    background-color:transparent;
+    color: #ffcc00;
+}
+.h1 , .button{
+    transform: translateY(-600px);
+  animation: .5s slideIn ease-out forwards 1s;
+}
+@keyframes slideIn {
+    0%{
+        transform: translateY(-50px);
+      opacity: .2;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  .button{
+    transform: translateY(-600px);
+    animation: 1.2s slideIn ease-out forwards 1s;
+  }
+  .intro .img-fluid{
+      height: 550px;
+      border-radius: 1rem;
+      width: 500px;
+  }
+  .intro h1{
+      color: #00004d;
+      font-weight:900;
+      font-family:'Fira Sans Extra Condensed', sans-serif;
+  }
+  .first{
+    transform:translateX(-700px);
+    animation: .3s slide ease-out forwards 1s;
+  }
+  @keyframes slide {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  .second{
+    transform:translateX(1000px);
+    animation: .3s slid ease-out forwards 1s;
+  }
+  @keyframes slid {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  .slide{
+    transform:translateX(-1700px);
+    animation:  slides ease-in forwards 1s;
+  }
+  @keyframes slides {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  .slide .row{
+      border-radius: 10px 0 0 10px;
+      filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 199deg);
+  }
+  .slide h1{
+    color: #00004d;
+    font-weight:900;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-size: 3rem;
+  }
+  .slide p{
+    font-family: 'Shippori Mincho', serif;
+    font-size: 1rem;
+  }
+  #parents img{
+      width: 196px;
+      height: 196px;
+  }
+  #parents h2{
+    font-weight: bold;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-size: 2.5rem;
+  }
+  #parents .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #learn{
+    background-color: #f5f3f3;
+  }
+  #learn h1{
+    color:#002266;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  #learn .card{
+    border-radius: 1rem;
+  }
+  #learn .btn{
+    color:#ffcc00;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  #learn .btn:hover{
+    position: relative;
+    bottom: 10px;
+  }
+  #learn h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .first{
+    display: block;
+    transform:translateX(-1700px);
+    animation:  first ease-in-out forwards 1s;
+  }
+  @keyframes first {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  .seconds{
+    display: block;
+    transform:translateY(2000px);
+    animation:  seconds ease-in-out forwards 1s;
+  }
+  @keyframes seconds {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  .third
+  {
+    display: block;
+    transform:translateX(2000px);
+    animation:  seconds ease-in-out forwards 1s;
+  }
+  @keyframes seconds {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  #object .card{
+    background-image: url('https://ruralliteracysolutions.com/wp-content/uploads/2019/03/background-green-min.jpg');
+    filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 199deg);
+    color:white;
+    width: 100%;
+    height: 270px;
+    border-radius: 1rem;
+    color:white;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  #object h1{
+    color:#002266;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+ #object .card{
+    display: block;
+    transform:translateX(-1700px);
+    animation:  ob ease-in forwards 1.9s;
+  }
+  @keyframes ob {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  .secs {
+    transform:translateY(1700px);
+    animation:  sec ease-in forwards 1.9s;
+
+  }
+  @keyframes sec {
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
